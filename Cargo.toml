@@ -71,13 +71,11 @@ version = "0.8"
 optional = true
 default-features = false
 features = ["voice", "gateway"]
-git = "https://github.com/serenity-rs/serenity"
-branch = "next"
+version = "^0.11"
 
 [dependencies.serenity-voice-model]
 optional = true
-git = "https://github.com/serenity-rs/serenity"
-branch = "next"
+version = "^0.1"
 
 [dependencies.streamcatcher]
 optional = true
